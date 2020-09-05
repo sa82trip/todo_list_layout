@@ -1,4 +1,5 @@
 # Easy Todo
+![easy_todo](https://user-images.githubusercontent.com/38380280/92307759-97ac2280-efd3-11ea-9284-829c3195aa74.gif)
 ## 쉬운 todo앱
 > 아주 간단히 사용할 수 있는 todo앱
 ## 기능 설명
@@ -9,9 +10,3 @@
 5. 완료와 미완료 상관없이 todo를 삭제하는 x 버튼 (로직 구현x)
 6. 미완료 todo의 갯수를 알려주는 메시지 좌하단 (로직 구현x)
 7. 오늘의 남은 시간을 알려주는 카운트 다운 우하단 (로직 구현x)
-
-![image](https://user-images.githubusercontent.com/38380280/92307385-020f9380-efd1-11ea-8c05-c57fe207bdf0.png)
-
-![image](https://user-images.githubusercontent.com/38380280/92307505-f2dd1580-efd1-11ea-8271-ce205e20ad2c.png)
-
-![image](https://user-images.githubusercontent.com/38380280/92307512-07b9a900-efd2-11ea-9092-72ae14e1ddae.png)
