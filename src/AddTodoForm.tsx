@@ -5,14 +5,6 @@ interface Props {
   showOnlyIncompleted: ShowOnlyIncompleted;
 }
 
-const inputStyle = {
-  backgroundColor: "pink",
-  color: "purple",
-  width: "25%",
-  border: "dot red",
-  margin: "20px 0px 0px 25px ",
-};
-
 export const AddTodoForm: React.FC<Props> = ({
   addTodo,
   showOnlyIncompleted,
@@ -22,11 +14,11 @@ export const AddTodoForm: React.FC<Props> = ({
   return (
     <form>
       <input
-        style={inputStyle}
         type="text"
         onChange={(e) => {
           setText(e.target.value);
         }}
+        placeholder="write a Todo!!"
       />
       <button
         type="submit"

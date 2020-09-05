@@ -1,0 +1,14 @@
+.title_of_app {
+  color: purple;
+  text-align: center;
+  margin: 25px;
+}
+
+h3 {
+  color: #ff7b69;
+  text-decoration: bold;
+}
+h4 {
+  color: orange;
+  text-decoration: italic;
+}
