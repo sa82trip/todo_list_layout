@@ -16,6 +16,11 @@ const listStyle = {
 const spanStyle = {
   color: "red",
 };
+const randomTime = () => {
+  let currentTime = new Date();
+  const stringifiedCurrentTime = `${currentTime.getHours()}:${currentTime.getMinutes()}`;
+  return stringifiedCurrentTime;
+};
 
 export const TodoListItem: React.FC<Props> = ({ todo, toggleTodo }) => {
   return (
@@ -29,6 +34,7 @@ export const TodoListItem: React.FC<Props> = ({ todo, toggleTodo }) => {
           checked={todo.complete}
           onClick={() => {
             toggleTodo(todo);
+            randomTime();
           }}
         />
         <span>{`${todo.text} `}</span>
@@ -39,7 +45,7 @@ export const TodoListItem: React.FC<Props> = ({ todo, toggleTodo }) => {
       </span>
       <span title="Start time and End time">
         {todo.complete
-          ? `S: ${todo.createdDate}  --  E: 23:38`
+          ? `S: ${todo.createdDate}  --  E: ${randomTime()}`
           : `S: ${todo.createdDate}`}
       </span>
     </li>
